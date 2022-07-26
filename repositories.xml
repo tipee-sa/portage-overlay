@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name>gammadia</name>
+		<description lang="en">Gammadia Portage Overlay.</description>
+		<homepage>https://github.com/gammadia/portage-overlay</homepage>
+		<owner type="person">
+			<name>Bastien Clément</name>
+			<email>bastien.clement@gammadia.ch</email>
+		</owner>
+		<source type="git">git://github.com/gammadia/portage-overlay.git</source>
+		<feed>https://github.com/gammadia/portage-overlay/commits/master.atom</feed>
+	</repo>
+</repositories>
