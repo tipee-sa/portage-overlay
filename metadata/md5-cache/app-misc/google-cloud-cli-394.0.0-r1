@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=>=dev-lang/python-3.5
+DESCRIPTION=Google Cloud SDK
+EAPI=8
+HOMEPAGE=https://cloud.google.com/sdk
+KEYWORDS=-* amd64
+LICENSE=See https://cloud.google.com/terms/
+RDEPEND=>=dev-lang/python-3.5
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-394.0.0-linux-x86_64.tar.gz https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-beta-20220719210002.tar.gz https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-alpha-20220719210002.tar.gz
+_md5_=23ccaaf5807a9f050e4b3d5a2e0a333b
