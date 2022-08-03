@@ -10,7 +10,7 @@ SRC_URI="
 	https://dl.google.com/dl/cloudsdk/channels/rapid/${BETA_URI}
 	https://dl.google.com/dl/cloudsdk/channels/rapid/${ALPHA_URI}
 "
-RESTRICT="mirror"
+RESTRICT="mirror test"
 
 LICENSE="See https://cloud.google.com/terms/"
 SLOT="0"
