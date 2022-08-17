@@ -7,10 +7,10 @@ DESCRIPTION="Google Cloud SDK"
 HOMEPAGE="https://cloud.google.com/sdk"
 SRC_URI="
 	https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/${P}-linux-x86_64.tar.gz
-	https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-beta-20220722145557.tar.gz
-	https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-alpha-20220722145557.tar.gz
+	https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-beta-20220812141601.tar.gz
+	https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-alpha-20220812141601.tar.gz
 "
-RESTRICT="mirror"
+RESTRICT="mirror test"
 
 LICENSE="See https://cloud.google.com/terms/"
 SLOT="0"
