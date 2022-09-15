@@ -7,8 +7,8 @@ DESCRIPTION="Google Cloud SDK"
 HOMEPAGE="https://cloud.google.com/sdk"
 SRC_URI="
 	https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/${P}-linux-x86_64.tar.gz
-	https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-beta-20220819155753.tar.gz
-	https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-alpha-20220819155753.tar.gz
+	https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-beta-20220912133630.tar.gz
+	https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-alpha-20220912133630.tar.gz
 	gcloud_module_gkeauth? ( https://dl.google.com/dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gke-gcloud-auth-plugin-linux-x86_64-20220812141601.tar.gz )
 "
 RESTRICT="mirror"
